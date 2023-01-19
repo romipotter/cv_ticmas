@@ -105,17 +105,43 @@ body {
 .container .right {
     position: relative;
     padding: 40px;
-    border: solid black;
+    /*border: solid black;*/
+}
+
+.about {
+    margin-bottom: 40px;
 }
 
 .title2 {
     color: #E63946;
     font-size: 1.6rem;
-    padding: 20px 0 10px 0
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-size: 1.15rem;
+    text-align: justify;
+    padding-bottom: 15px;
 }
 
 .about p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: justify;
-    padding-bottom: 5px;
+    padding: 10px 0 10px 0;
 }
+
+.experiencia {
+    margin-bottom: 10px;
+}
+
+.experiencia h4, h5 {
+    color: #1D3557;
+    padding-bottom: 0;
+}
+
+h5 {
+    font-size: 0.95rem;
+}
+
+
+
