@@ -147,5 +147,52 @@ h5 {
 
 /*HABILIDADES*/
 
+.habilidades ul .bar {
+    height: 1rem;
+    position: relative;
+    list-style: none;
+    margin: 2rem 0;
+    border-radius: 10px;
+}
+
+.lenguaje {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    font-weight: 600;
+    color: #1D3557;
+}
+
+.porcentaje {
+    position: absolute;
+    bottom: 1rem;
+    right: 0;
+    font-weight: 600;
+}
+
+ul .html {
+    width: 90%;
+    background-color: orangered;
+}
+
+ul .css {
+    width: 80%;
+    background-color: blue;
+}
+
+ul .bootstrap {
+    width: 70%;
+    background-color: blueviolet;
+}
+
+ul .js {
+    width: 60%;
+    background-color: yellow;
+}
+
+ul .git {
+    width: 80%;
+    background-color: orangered;
+}
 
 
