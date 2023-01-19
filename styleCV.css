@@ -23,6 +23,8 @@ body {
     grid-template-columns: 1fr 3fr;
 }
 
+/**CONTENEDOR IZQUIERDA**/
+
 .container .left {
     position: relative;
     background-color: #1D3557;
@@ -30,13 +32,7 @@ body {
     padding: 30px;
 }
 
-.container .right {
-    position: relative;
-    padding: 40px;
-    border: solid black;
-}
-
-/**INFORMACION CONTACTO**/
+/*FOTO Y NOMBRE*/
 
 .foto {
     position: relative;
@@ -69,6 +65,8 @@ body {
     text-align: center;
 }
 
+/*INFORMACION DE CONTACTO*/
+
 .contact {
     color: #F1FAEE;
     padding-top: 40px;
@@ -100,4 +98,24 @@ body {
 
 .contact ul li .text {
     font-size: 1.1rem;
+}
+
+/**CONTENEDOR DERECHA**/
+
+.container .right {
+    position: relative;
+    padding: 40px;
+    border: solid black;
+}
+
+.title2 {
+    color: #E63946;
+    font-size: 1.6rem;
+    padding: 20px 0 10px 0
+}
+
+.about p {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding-bottom: 5px;
 }
