@@ -109,7 +109,7 @@ body {
 }
 
 .about {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .title2 {
@@ -130,7 +130,9 @@ h4 {
     padding: 10px 0 10px 0;
 }
 
-.experiencia {
+/*EXPERIENCIA*/
+
+.box {
     margin-bottom: 10px;
 }
 
@@ -142,6 +144,8 @@ h4 {
 h5 {
     font-size: 0.95rem;
 }
+
+/*HABILIDADES*/
 
 
 
