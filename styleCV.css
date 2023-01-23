@@ -195,7 +195,7 @@ ul .git {
     background-color: orangered;
 }
 
-/**MEDIA QUERYS**/
+/**MEDIA QUERIES**/
 
 @media screen and (max-width: 700px) {
     .container {
