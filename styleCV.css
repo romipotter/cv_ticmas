@@ -17,7 +17,6 @@ body {
 .container {
     position: relative;
     width: 100%;
-    /*max-width: 1000px;*/
     min-height: 1000px;
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -70,6 +69,8 @@ body {
 .contact {
     color: #F1FAEE;
     padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #A8DADC;
 }
 
 .title {
@@ -102,6 +103,11 @@ body {
 }
 
 /*BOTONES*/
+
+.botones {
+    margin-top: 25px;
+    text-align: center;
+}
 
 #botondark {
     margin: 10px;
