@@ -50,18 +50,3 @@ document.getElementsByClassName('title2').addEventListener('onmouseout', functio
 */
 
 
-/** 
-EN HTML: onmouseover="bigimg(this)" onmouseout="normalimg(this)"
-
-EN JS:
-function bigimg(x) {
-    x.style.height= "275px";
-    x.style.width= "275px"
-}
-
-function normalimg(x) {
-    x.style.height= "220px";
-    x.style.width= "220px"
-}
-*/
-
