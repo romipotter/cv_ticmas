@@ -35,8 +35,8 @@ body {
 
 .foto {
     position: relative;
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     filter: drop-shadow(10px 10px 0 #000);
 }
@@ -62,6 +62,16 @@ body {
     margin-top: 15px;
     font-size: 1.5rem;
     text-align: center;
+}
+
+.nombre {
+    animation: anim 10s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes anim {
+    from {color: #E63946}
+    to {color: #F07407}
 }
 
 /*INFORMACION DE CONTACTO*/
