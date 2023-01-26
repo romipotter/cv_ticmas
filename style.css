@@ -147,11 +147,26 @@ body {
 
 .container .right {
     position: relative;
-    padding: 40px;
+}
+
+/*BARRA NAVEGACION*/
+
+nav {
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: #E63946;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    padding: 2px 10px;
 }
 
 .about {
-    margin-bottom: 30px;
+    padding: 10px 40px;
 }
 
 .title2 {
