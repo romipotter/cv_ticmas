@@ -31,6 +31,55 @@ body {
     padding: 30px;
 }
 
+/*BOTON DARK MODE*/
+
+body.dark {
+    background-color: #000000;
+    color: #FFF;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.label {
+    width: 50px;
+    height: 26px;
+    background-color:#111;
+    display: flex;
+    border-radius:50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    transform: scale(1.5);
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball{
+    transform: translateX(24px);
+}
+
+.fa-moon {
+    color: #7dc4ff;
+}
+
+.fa-sun {
+    color: #ffff5b;
+}
+
 /*FOTO Y NOMBRE*/
 
 .foto {
@@ -79,8 +128,6 @@ body {
 .contact {
     color: #F1FAEE;
     padding-top: 40px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #A8DADC;
 }
 
 .title {
@@ -110,56 +157,6 @@ body {
 
 .contact ul li .text {
     font-size: 1.1rem;
-}
-
-/*BOTON DARK MODE*/
-
-body.dark {
-    background-color: #000000;
-    color: #FFF;
-}
-
-.checkbox {
-    opacity: 0;
-    position: absolute;
-}
-
-.label {
-    width: 50px;
-    height: 26px;
-    background-color:#111;
-    display: flex;
-    border-radius:50px;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px;
-    margin-bottom: 20px;
-    position: relative;
-    transform: scale(1.5);
-}
-
-.ball {
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    border-radius: 50%;
-    transition: transform 0.2s linear;
-}
-
-/*  target the elemenent after the label*/
-.checkbox:checked + .label .ball{
-    transform: translateX(24px);
-}
-
-.fa-moon {
-    color: #7dc4ff;
-}
-
-.fa-sun {
-    color: #ffff5b;
 }
 
 
@@ -231,7 +228,7 @@ h4 {
 }
 
 .experiencia h4, h5 {
-    color: #457B9D;
+    color: #2a668b;
     padding-bottom: 0;
 }
 
