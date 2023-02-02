@@ -1,10 +1,6 @@
 
-document.getElementById('botondark').addEventListener('click', function () {
-    document.body.style.backgroundColor = "black";
-    document.body.style.color = "white";
-})
+const checkbox = document.getElementById('checkbox');
 
-document.getElementById('botonlight').addEventListener('click', function () {
-    document.body.style.backgroundColor = "white";
-    document.body.style.color = "black";
+checkbox.addEventListener('change', ()=>{
+    document.body.classList.toggle('dark');
 })

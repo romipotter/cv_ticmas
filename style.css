@@ -112,34 +112,54 @@ body {
     font-size: 1.1rem;
 }
 
-/*BOTONES*/
+/*BOTON DARK MODE*/
 
-.botones {
-    margin-top: 25px;
-    text-align: center;
+body.dark {
+    background-color: #000000;
+    color: #FFF;
 }
 
-#botondark {
-    margin: 10px;
-    padding: 15px;
-    background-color: #000;
-    color: #F1FAEE;
-    border: none;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
+.checkbox {
+    opacity: 0;
+    position: absolute;
 }
 
-#botonlight {
-    margin: 10px;
-    padding: 15px;
-    background-color: #F1FAEE;
-    color: #000;
-    border: none;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
+.label {
+    width: 50px;
+    height: 26px;
+    background-color:#111;
+    display: flex;
+    border-radius:50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    transform: scale(1.5);
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball{
+    transform: translateX(24px);
+}
+
+.fa-moon {
+    color: #7dc4ff;
+}
+
+.fa-sun {
+    color: #ffff5b;
 }
 
 
@@ -154,10 +174,11 @@ body {
 nav {
     text-align: right;
     margin-bottom: 10px;
-    padding: 20px;
-    color: #E63946;
+    padding: 15px;
     font-size: 1.1rem;
     font-weight: bold;
+    background-color: #A8DADC;
+    opacity: 75%;
 }
 
 a {
@@ -185,6 +206,22 @@ h4 {
     font-size: 1.1rem;
     text-align: justify;
     padding: 10px 0 10px 0;
+}
+
+#mi, #experiencia, #habilidades {
+    transition: text-decoration 4s;
+}
+
+#mi:hover {
+    text-decoration: underline;
+}
+
+#experiencia:hover {
+    text-decoration: underline;
+}
+
+#habilidades:hover {
+    text-decoration: underline;
 }
 
 /*EXPERIENCIA*/
