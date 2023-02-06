@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +28,7 @@ body {
 
 .container .left {
     position: relative;
-    background-color: #1D3557;
+    background-color: rgba(29, 53, 87, .9);
     color: #A8DADC;
     padding: 30px;
 }
@@ -52,7 +54,6 @@ body.dark {
     align-items: center;
     justify-content: space-between;
     padding: 5px;
-    margin-bottom: 20px;
     position: relative;
     transform: scale(1.5);
 }
@@ -88,6 +89,7 @@ body.dark {
     height: 250px;
     border-radius: 50%;
     filter: drop-shadow(10px 10px 0 #000);
+    margin-top: 25px;
 }
 
 .perfil {
